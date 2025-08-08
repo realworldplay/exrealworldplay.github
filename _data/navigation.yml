@@ -20,7 +20,7 @@ main:
         url: /fandom/characters/
 
   - title: "뉴스레터"
-    url: /newsletter/
+    url: "https://maily.so/sayeon"  # 여기에 실제 뉴스레터 URL
+    external: true
 
-  - title: "소개"
-    url: /about/
+
