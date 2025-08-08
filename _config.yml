@@ -19,9 +19,9 @@ locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "말해지지 않은 것들"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "역사 속 인물과 서사를 기록하는 아카이브" # site tagline that appears below site title in masthead
 name                     : "초부"
-description              : "An amazing website."
+description              : "역사 인물 연구와 창작 아이디어를 기록하는 개인 아카이브 블로그"
 # 프로젝트 사이트(exrealworldplay.github) 예시
 url: "https://realworldplay.github.io"
 baseurl: "/exrealworldplay.github"
