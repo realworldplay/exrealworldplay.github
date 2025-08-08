@@ -1,12 +1,26 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "홈"
+    url: /
+
+  - title: "역사 아카이브"
+    url: /history/
+    children:
+      - title: "조선시대"
+        url: /history/joseon/
+      - title: "자료실"
+        url: /history/resources/
+
+  - title: "연성 노트"
+    url: /fandom/
+    children:
+      - title: "연성기록실"
+        url: /fandom/novel/
+      - title: "캐릭터 분석"
+        url: /fandom/characters/
+
+  - title: "뉴스레터"
+    url: /newsletter/
+
+  - title: "소개"
+    url: /about/
