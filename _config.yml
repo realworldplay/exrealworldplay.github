@@ -23,9 +23,6 @@ subtitle                 : "역사 속 인물과 서사를 기록하는 아카�
 name                     : "초부"
 description              : "역사 인물 연구와 창작 아이디어를 기록하는 개인 아카이브 블로그"
 # 프로젝트 사이트(exrealworldplay.github) 예시
-url: "https://realworldplay.github.io"
-baseurl: "/exrealworldplay.github"
-
 url: "https://realworldplay.github.io"   # 고정
 baseurl: "/exrealworldplay.github"       # ★ 프로젝트 경로
 # 예쁘게 /path/ 형태로
