@@ -118,10 +118,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "초부"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "말하지 못한 감정을 복원하는 감정선해석가"
+  location         : "하얀탑 뒷골목"
   email            :
   links:
     - label: "Email"
