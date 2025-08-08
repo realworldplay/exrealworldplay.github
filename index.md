@@ -2,7 +2,7 @@
 layout: home
 title: "홈"
 permalink: /
-author_profile: false
+author_profile: true
 ---
 
 > 여기에 간단한 사이트 소개나 환영 문구를 적으세요.  
