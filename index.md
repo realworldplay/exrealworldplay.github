@@ -25,7 +25,7 @@ excerpt: "역사콘텐츠 플랫폼"
 
 ---
 
-## 최신글 — 경험설계
+### 최신글 — 경험설계
 {% assign posts = site.xd | sort: 'date' | reverse | slice: 0, 3 %}
 <ul class="posts-list">
 {% for doc in posts %}
@@ -37,7 +37,7 @@ excerpt: "역사콘텐츠 플랫폼"
 {% endfor %}
 </ul>
 
-## 최신글 — 해설 칼럼
+### 최신글 — 해설 칼럼
 {% assign posts = site.columns | sort: 'date' | reverse | slice: 0, 3 %}
 <ul class="posts-list">
 {% for doc in posts %}
@@ -49,7 +49,7 @@ excerpt: "역사콘텐츠 플랫폼"
 {% endfor %}
 </ul>
 
-## 최신글 — 연구 메모
+### 최신글 — 연구 메모
 {% assign posts = site.notes | sort: 'date' | reverse | slice: 0, 3 %}
 <ul class="posts-list">
 {% for doc in posts %}
@@ -61,7 +61,7 @@ excerpt: "역사콘텐츠 플랫폼"
 {% endfor %}
 </ul>
 
-## 최신글 — 현장 탐방
+### 최신글 — 현장 탐방
 {% assign posts = site.fieldtrip | sort: 'date' | reverse | slice: 0, 3 %}
 <ul class="posts-list">
 {% for doc in posts %}
@@ -73,7 +73,7 @@ excerpt: "역사콘텐츠 플랫폼"
 {% endfor %}
 </ul>
 
-## 최신글 — 사료 번역
+### 최신글 — 사료 번역
 {% assign posts = site.sources | sort: 'date' | reverse | slice: 0, 3 %}
 <ul class="posts-list">
 {% for doc in posts %}
@@ -85,7 +85,7 @@ excerpt: "역사콘텐츠 플랫폼"
 {% endfor %}
 </ul>
 
-## 최신글 — 큐레이션
+### 최신글 — 큐레이션
 {% assign posts = site.curation | sort: 'date' | reverse | slice: 0, 3 %}
 <ul class="posts-list">
 {% for doc in posts %}
