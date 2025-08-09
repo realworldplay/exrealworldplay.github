@@ -9,21 +9,22 @@ main:
         url: /history/joseon/
       - title: "자료실"
         url: /history/resources/
-      - title: "해설 칼럼"
-        url: /columns/
-      - title: "연구 메모"
-        url: /notes/
-      - title: "현장 탐방"
-        url: /fieldtrip/
-      - title: "사료 번역"
-        url: /sources/
-      - title: "큐레이션"
-        url: /curation/
 
-  - title: "연성 노트"
+  - title: "해설 · 칼럼"
+    url: /columns/
+  - title: "연구 메모"
+    url: /notes/
+  - title: "현장 탐방"
+    url: /fieldtrip/
+  - title: "사료 번역"
+    url: /sources/
+  - title: "큐레이션"
+    url: /curation/
+
+  - title: "연성 노트(외부)"
     url: "https://realworldplay.github.io/"
 
-  - title: "뉴스레터"
+  - title: "뉴스레터(외부)"
     url: "https://maily.so/sayeon"
 
 
