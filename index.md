@@ -5,6 +5,8 @@ permalink: /
 excerpt: "역사콘텐츠 플랫폼"
 ---
 
+
+/**
 <p style="text-align:center">
   <a class="btn btn--primary btn--large" href="{{ '/history/'   | relative_url }}">역사 아카이브</a>
   <a class="btn btn--large" href="{{ '/xd/'        | relative_url }}">경험설계</a>
@@ -16,6 +18,7 @@ excerpt: "역사콘텐츠 플랫폼"
   <a class="btn btn--inverse btn--large" href="https://realworldplay.github.io" target="_blank" rel="noopener">연성노트 보기</a>
   <a class="btn btn--large" href="https://maily.so/sayeon" target="_blank" rel="noopener">뉴스레터</a>
 </p>
+**/
 
 ## 타임머신은 없지만 기록으로 시대를 건넌다
 역사와 서사를 사랑하는 기획자의 기록 공간  
