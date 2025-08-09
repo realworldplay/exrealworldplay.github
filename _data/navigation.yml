@@ -10,6 +10,8 @@ main:
       - title: "자료실"
         url: /history/resources/
 
+  - title: "경험설계"
+    url: /xd/
   - title: "해설 · 칼럼"
     url: /columns/
   - title: "연구 메모"
@@ -26,5 +28,6 @@ main:
 
   - title: "뉴스레터"
     url: "https://maily.so/sayeon"
+
 
 
