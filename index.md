@@ -12,7 +12,7 @@ excerpt: "역사콘텐츠 플랫폼"
   <a class="btn btn--large" href="{{ '/fieldtrip/' | relative_url }}">현장 탐방</a>
   <a class="btn btn--large" href="{{ '/sources/'   | relative_url }}">사료 번역</a>
   <a class="btn btn--large" href="{{ '/curation/'  | relative_url }}">큐레이션</a>
-  <a class="btn btn--inverse btn--large" href="" target="_blank" rel="noopener">연성 노트 보기</a>
+  <a class="btn btn--inverse btn--large" href="https://realworldplay.github.io" target="_blank" rel="noopener">연성노트 보기</a>
   <a class="btn btn--large" href="https://maily.so/sayeon" target="_blank" rel="noopener">뉴스레터</a>
 </p>
 
