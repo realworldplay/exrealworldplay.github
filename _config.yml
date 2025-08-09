@@ -36,53 +36,31 @@ collections:
     output: true
   curation:
     output: true
+  xd:
+    output: true
 
 # --- Defaults (레이아웃/옵션 기본값) ---
 defaults:
-  - scope:
-      path: ""
-      type: history
-    values:
-      layout: single
-  - scope:
-      path: ""
-      type: fandom
-    values:
-      layout: single
-  - scope:
-      path: ""
-      type: newsletter
-    values:
-      layout: single
-  - scope:
-      path: ""
-      type: columns
-    values:
-      layout: single
-  - scope:
-      path: ""
-      type: notes
-    values:
-      layout: single
-  - scope:
-      path: ""
-      type: fieldtrip
-    values:
-      layout: single
-  - scope:
-      path: ""
-      type: sources
-    values:
-      layout: single
-  - scope:
-      path: ""
-      type: curation
-    values:
-      layout: single
-  # posts가 있다면 유지, 없으면 삭제해도 됨
-  - scope:
-      path: ""
-      type: posts
+  - scope: { path: "", type: history }
+    values: { layout: single }
+  - scope: { path: "", type: fandom }
+    values: { layout: single }
+  - scope: { path: "", type: newsletter }
+    values: { layout: single }
+  - scope: { path: "", type: columns }
+    values: { layout: single }
+  - scope: { path: "", type: notes }
+    values: { layout: single }
+  - scope: { path: "", type: fieldtrip }
+    values: { layout: single }
+  - scope: { path: "", type: sources }
+    values: { layout: single }
+  - scope: { path: "", type: curation }
+    values: { layout: single }
+  - scope: { path: "", type: xd }
+    values: { layout: single }
+  # posts가 있다면 유지, 없으면 삭제 가능
+  - scope: { path: "", type: posts }
     values:
       layout: single
       author_profile: true
@@ -103,7 +81,7 @@ enable_copy_code_button:
 comments:
   provider:
 
-# --- Search/SEO (원하면 켜기) ---
+# --- Search/SEO ---
 search: true
 search_full_content: false
 search_provider: lunr
@@ -111,7 +89,7 @@ google_site_verification:
 bing_site_verification:
 naver_site_verification:
 
-# --- Social / Open Graph (원하면 채우기) ---
+# --- Social / Open Graph ---
 twitter:
   username:
 facebook:
@@ -124,7 +102,7 @@ social:
   name: "초부"
   links: []
 
-# --- Analytics (원하면 채우기) ---
+# --- Analytics ---
 analytics:
   provider:
   google:
@@ -212,7 +190,7 @@ sass:
   sass_dir: _sass
   style: compressed
 
-# --- Archives (카테고리/태그 페이지 필요 시 유지) ---
+# --- Archives ---
 category_archive:
   type: liquid
   path: /categories/
@@ -226,7 +204,7 @@ compress_html:
   ignore:
     envs: development
 
-# --- Plugins (GitHub Pages 호환) ---
+# --- Plugins ---
 plugins:
   - jekyll-sitemap
   - jekyll-gist
