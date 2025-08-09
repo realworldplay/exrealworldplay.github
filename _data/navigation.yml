@@ -1,4 +1,3 @@
-# main links
 main:
   - title: "홈"
     url: /
@@ -23,10 +22,9 @@ main:
 
   - title: "연성 노트"
     url: "https://realworldplay.github.io/"
-    external: true
 
   - title: "뉴스레터"
-    url: "https://maily.so/sayeon"  # 여기에 실제 뉴스레터 URL
-    external: true
+    url: "https://maily.so/sayeon"
+
 
 
