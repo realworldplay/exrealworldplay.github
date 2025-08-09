@@ -21,10 +21,10 @@ main:
   - title: "큐레이션"
     url: /curation/
 
-  - title: "연성 노트(외부)"
+  - title: "연성 노트"
     url: "https://realworldplay.github.io/"
 
-  - title: "뉴스레터(외부)"
+  - title: "뉴스레터"
     url: "https://maily.so/sayeon"
 
 
